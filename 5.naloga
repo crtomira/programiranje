@@ -1,0 +1,63 @@
+import java.util.*;
+
+public class peta{
+	public static void main(String[]args){
+
+Scanner vhod=new Scanner(System.in);
+
+
+Boolean b=false;
+do{
+
+	System.out.println("1. Izpiši pozdrav");
+	System.out.println("2. Izpiši vizitko");
+	System.out.println("3. Izhod");
+
+int a=vhod.nextInt();
+
+
+
+
+
+switch(a){
+
+
+case 1:
+System.out.println("Excellent!");
+break;
+
+case 2:
+System.out.println("Excellent!");
+break;
+
+case 3:
+b=true;
+break;
+
+default:
+System.out.println("Invalid grade");
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+while(b!=true);
+
+
+
+
+
+
+
+	
+}}
