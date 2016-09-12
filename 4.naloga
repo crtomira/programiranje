@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class cetrta{
+   public static void main (String[] args)
+   {		
+      Scanner scanner = new Scanner(System.in);
+      
+      int num =0;
+      
+
+      String  prastevila = "";
+     
+
+      int i=scanner.nextInt();
+      int x=i;
+      int n = scanner.nextInt();
+      for (i = x; i <= n; i++)  	   
+      { 		 		  
+         int stevec=0; 		  
+         for(num =i; num>=1; num--)
+         {
+	    if(i%num==0)
+	    {
+		stevec = stevec + 1;
+	    }
+	 }
+	 if (stevec ==2)
+	 {
+	    prastevila = prastevila + i + " ";
+	 }	
+      }	
+      System.out.println("prastevila med 1 in "+ n+" so:");
+      System.out.println(prastevila);
+
+      
+   }
+}
